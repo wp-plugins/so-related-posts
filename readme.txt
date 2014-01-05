@@ -50,7 +50,7 @@ Done!
 
 = Where are the Settings? =
 
-You can stop looking, there are no settings. The Addon just works in the background.
+You can stop looking, there are no settings. When you go into your Post Edit screen, you will see the Related Posts Metabox where you can choose Related Posts for your current Post.
 
 = Why is the plugin showing an error message after activation? =
 
