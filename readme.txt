@@ -32,7 +32,7 @@ Quick installation: [Install now](http://coveredwebservices.com/wp-plugin-instal
 
  &hellip; OR &hellip;
 
-Go to **Plugins > Add New** in your WordPress Dashboard, do a search for "so remove wpml menu sync" and install it.
+Go to **Plugins > Add New** in your WordPress Dashboard, do a search for "so related posts" and install it.
 
  &hellip; OR &hellip;
 
