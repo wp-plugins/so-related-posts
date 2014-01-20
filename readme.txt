@@ -4,7 +4,7 @@ Donate link: http://so-wp.com/donations
 Tags: related posts
 Requires at least: 3.6
 Tested up to: 3.9-alpha
-Stable tag: 2014.01.07
+Stable tag: 2014.01.20
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,9 +12,11 @@ The SO Related Posts plugin puts you in control on what really is related conten
 
 == Description ==
 
-The SO Related Posts plugin is an Addon for the fantastic [Meta Box plugin](http://wordpress.org/plugins/meta-box/) by [Rilwis](http://profiles.wordpress.org/rilwis/) and puts you in control on what really is related content. 
+The SO Related Posts plugin is an Extension for the fantastic [Meta Box plugin](http://wordpress.org/plugins/meta-box/) by [Rilwis](http://profiles.wordpress.org/rilwis/) and puts you in control on what really is related content. 
 
-With the plugin installed you will find a Related Posts box underneath the Post Editor. On the frontend the Related Posts are shown in their own class with an unordered list, right after `the_content()`. The class will use the styling of your theme and you can style it further to your own liking. 
+With the plugin installed you will find a Related Posts box underneath the Post Editor. On the frontend the Related Posts are shown in their own class with an unordered list, right after `the_content()`. The class will use the styling of your theme and you can style it further to your own liking.
+
+Since 2014.01.20 I added a method to install the Meta Box plugin (where this extension depends on), instantly from within your website.
 
 = Background =
 
@@ -26,7 +28,7 @@ Among heaps of other very useful fields, the [Meta Box plugin](http://wordpress.
 
 The SO Related Posts metabox uses the [Select2](http://ivaynberg.github.io/select2/) script which results in really beautiful and functional drop down menus. Credits for this functionality must all go to Rilwis as this is already baked in the Meta Box plugin.
 
-The Addon doesn't come with any settings; you can just choose which Posts to add. The meta box is only visible in the Edit Post screen.
+The Extension doesn't come with any settings; you can just choose which Posts to add. The meta box is only visible in the Edit Post screen.
 
 I have decided to only support this plugin through [Github](https://github.com/senlin/so-related-posts/issues). Therefore, if you have any questions, need help and/or want to make a feature request, please open an issue over at Github. You can also browse through open and closed issues to find what you are looking for and perhaps even help others.
 
@@ -46,6 +48,8 @@ Go to **Plugins > Add New** in your WordPress Dashboard, do a search for "so rel
  2. Upload the zip file via the Plugins > Add New > Upload page &hellip; OR &hellip; unpack and upload with your favourite FTP client to the /plugins/ folder.
 
  3. Activate the plugin on the Plugins page.
+ 
+ 4. If you have not yet installed the Meta Box plugin (where this plugin depends on to function) you will see an error message with a link to a new install page called "Required Plugin". Go there and follow the instructions.
 
 Done!
 
@@ -58,7 +62,7 @@ You can stop looking, there are no settings. When you go into your Post Edit scr
 
 = Why is the plugin showing an error message after activation? =
 
-This plugin is an Addon for the [Meta Box plugin](http://www.deluxeblogtips.com/meta-box/). If you don't have that installed, this Addon is useless, so better not install it.
+This plugin is an Extension for the [Meta Box plugin](http://www.deluxeblogtips.com/meta-box/). If you don't have that installed, this Extension is useless. If you click on the link that shows with the error message you will go to a new page "Required Plugin" to install the Meta Box plugin.
 
 = I don't like the output on my Single Post, can I change anything? =
 
@@ -74,6 +78,10 @@ Please open an issue on [Github](https://github.com/senlin/so-related-posts/issu
 3. SO Related Posts output: you can style it to your liking.
 
 == Changelog ==
+
+= 2014.01.20 =
+
+* integrated TGM Plugin Activation class by Thomas Griffin - https://github.com/thomasgriffin/TGM-Plugin-Activation
 
 = 2014.01.07 =
 
