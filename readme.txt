@@ -1,5 +1,5 @@
 === SO Related Posts ===
-Contributor: senlin
+Contributors: senlin
 Donate link: http://so-wp.com/donations
 Tags: related posts
 Requires at least: 3.6
