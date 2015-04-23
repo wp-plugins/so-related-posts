@@ -4,7 +4,7 @@ Donate link: http://so-wp.com/donations
 Tags: related posts
 Requires at least: 4.0
 Tested up to: 4.2
-Stable tag: 2015.04.09
+Stable tag: 2015.04.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,10 +94,13 @@ Please open an issue on [Github](https://github.com/senlin/so-related-posts/issu
 
 == Changelog ==
 
+= 2015.04.23 =
+
+* update TGM Plugin Activation class to 2.4.1 which fixes reported [XSS vulnerability](http://wptavern.com/xss-vulnerability-what-to-do-if-you-buy-or-sell-items-on-themeforest-and-codecanyon) 
+
 = 2015.04.09 =
 
 * changed logos
-* new banner image for WP.org Repo by [Ilya](https://unsplash.com/ilya) 
 
 = 2015.03.16 =
 
